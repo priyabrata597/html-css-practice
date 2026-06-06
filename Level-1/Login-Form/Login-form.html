@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log-in form</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+    <form action="Login-form.html">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" />
+      <br /><br />
+      <label for="email">E-mail:</label>
+      <input
+        type="email"
+        class="text"
+        id="email"
+        name="email"
+        placeholder="Enter E-mail"
+      />
+      <br /><br />
+      <!-- Password: <input type="number" class="number" id="password" placeholder="Enter password"> -->
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        class="password"
+        id="password"
+        name="passsword"
+        required
+        minlength="8"
+        placeholder="Enter password"
+        autocomplete="new-password"
+      />
+      <br>
+      <div class="forgot">
+      <a href="#">Forgot password?</a>
+      </div>
+      <br /><br />
+      <!-- <label for="confirm-password">Password:</label>
+      <input
+        type="password"
+        class="password"
+        id="confirm-password"
+        name="passsword"
+        minlength="8"
+        maxlength="16"
+        pattern="[A-Z a-z 1-0 !@#$%^&*_+-]"
+        placeholder="Enter password"
+        autocomplete="new-password"
+      /> -->
+    </form>
+    <button type="submit">Login</button>
+  </div>
+  </body>
+</html>

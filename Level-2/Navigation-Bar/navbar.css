@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: darkblue;
+}
+
+nav{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+ul{
+    padding: 10px;
+    list-style: none;
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+}
+
+a{
+    text-decoration:none;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: .3s ease;
+    font-weight: bold;
+    color: yellow;
+}
+
+.container{
+    height: 200px;
+  background-color: teal;
+}

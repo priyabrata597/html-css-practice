@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  background-image: url('images/BGimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  /* image-rendering: crisp-edges; */
+}
+
+.container {
+  background-color: transparent ;
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: auto;
+  gap: 30px;
+}
+
+.card {
+  background-color: cadetblue;
+  padding: 20px;
+  border: 2px solid royalblue;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out;
+  box-shadow: 5px 5px 4px black;
+}
+
+img {
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 65px;
+  margin: 0 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease;
+  background-color: darkslategray;
+}
+
+.box {
+  margin: 10px 0;
+}
+
+h2 {
+  padding: 5px;
+}
+
+p {
+  padding: 5px;
+}
+
+a {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* a:hover {
+  transition: 0.1s ease;
+  background-color: blue;
+  color: aqua;
+  transform: scale(1.01);
+} */
+
+button {
+  border-radius: 5px;
+  color: ghostwhite;
+  background-color: royalblue;
+  padding: 2px;
+  transition: .1s;
+}
+
+button:hover{
+  background-color: blue;
+  color:aqua ;
+  transform: scale(1.05);
+}
