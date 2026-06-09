@@ -5,6 +5,7 @@
 }
 
 body{
+  background: linear-gradient(135deg, #1e3c72, #2a5398);
   background-color: aliceblue;
   display: flex;
   justify-content: center;
@@ -16,8 +17,21 @@ body{
 .container{
   width: 350px;
   padding: 20px;
-  background-color: darkseagreen;
+  background-color: whitesmoke;
   border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 2px solid black;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p{
+  text-align: center;
+  padding: 0px 0 10px 0;
+  font-weight: bold;
 }
 
 label {
@@ -49,7 +63,7 @@ button{
   /* width: 60px; */
   margin: 5px 0;
   width: 100%;
-  background-color: darkseagreen;
+  background-color: #2563eb;
   color: black;
   font-weight: 450;
   margin-top: 12px;
